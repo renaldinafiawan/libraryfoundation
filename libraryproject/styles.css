@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #444;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#book-list {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.book-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.book-item:last-child {
+    border-bottom: none;
+}
+
+.book-info {
+    flex: 1;
+}
+
+.book-info h3, .book-info p {
+    margin: 0;
+}
+
+.book-info p {
+    color: #666;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+button.read, button.remove {
+    background-color: #dc3545;
+}
+
+button.read {
+    background-color: #007bff;
+}
+
+button.read:hover {
+    background-color: #0056b3;
+}
+
+button.remove:hover {
+    background-color: #c82333;
+}
+
+label {
+    display: grid;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
